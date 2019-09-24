@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633D7ABC2339E52000BA73E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7ABB2339E52000BA73E8 /* AppDelegate.m */; };
+		633D7ABF2339E52000BA73E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7ABE2339E52000BA73E8 /* ViewController.m */; };
+		633D7AC22339E52000BA73E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633D7AC02339E52000BA73E8 /* Main.storyboard */; };
+		633D7AC42339E52100BA73E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633D7AC32339E52100BA73E8 /* Assets.xcassets */; };
+		633D7AC72339E52100BA73E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633D7AC52339E52100BA73E8 /* LaunchScreen.storyboard */; };
+		633D7ACA2339E52100BA73E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7AC92339E52100BA73E8 /* main.m */; };
+		633D7AD42339E52100BA73E8 /* JGFileUploadToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7AD32339E52100BA73E8 /* JGFileUploadToolTests.m */; };
+		633D7ADF2339E52100BA73E8 /* JGFileUploadToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7ADE2339E52100BA73E8 /* JGFileUploadToolUITests.m */; };
+		633D7AF32339E57E00BA73E8 /* JGUploadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7AEF2339E57E00BA73E8 /* JGUploadTool.m */; };
+		633D7AF42339E57E00BA73E8 /* JGFileStreamOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D7AF02339E57E00BA73E8 /* JGFileStreamOperation.m */; };
+		633D7AF62339E83800BA73E8 /* FMDB.db in Resources */ = {isa = PBXBuildFile; fileRef = 633D7AF52339E83800BA73E8 /* FMDB.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		633D7AD02339E52100BA73E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633D7AAF2339E52000BA73E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633D7AB62339E52000BA73E8;
+			remoteInfo = JGFileUploadTool;
+		};
+		633D7ADB2339E52100BA73E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633D7AAF2339E52000BA73E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633D7AB62339E52000BA73E8;
+			remoteInfo = JGFileUploadTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		633D7AB72339E52000BA73E8 /* JGFileUploadTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGFileUploadTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633D7ABA2339E52000BA73E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		633D7ABB2339E52000BA73E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		633D7ABD2339E52000BA73E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		633D7ABE2339E52000BA73E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		633D7AC12339E52000BA73E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633D7AC32339E52100BA73E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633D7AC62339E52100BA73E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		633D7AC82339E52100BA73E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633D7AC92339E52100BA73E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		633D7ACF2339E52100BA73E8 /* JGFileUploadToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGFileUploadToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633D7AD32339E52100BA73E8 /* JGFileUploadToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGFileUploadToolTests.m; sourceTree = "<group>"; };
+		633D7AD52339E52100BA73E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633D7ADA2339E52100BA73E8 /* JGFileUploadToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGFileUploadToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633D7ADE2339E52100BA73E8 /* JGFileUploadToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGFileUploadToolUITests.m; sourceTree = "<group>"; };
+		633D7AE02339E52100BA73E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633D7AEF2339E57E00BA73E8 /* JGUploadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGUploadTool.m; sourceTree = "<group>"; };
+		633D7AF02339E57E00BA73E8 /* JGFileStreamOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGFileStreamOperation.m; sourceTree = "<group>"; };
+		633D7AF12339E57E00BA73E8 /* JGUploadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGUploadTool.h; sourceTree = "<group>"; };
+		633D7AF22339E57E00BA73E8 /* JGFileStreamOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGFileStreamOperation.h; sourceTree = "<group>"; };
+		633D7AF52339E83800BA73E8 /* FMDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = FMDB.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633D7AB42339E52000BA73E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633D7ACC2339E52100BA73E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633D7AD72339E52100BA73E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633D7AAE2339E52000BA73E8 = {
+			isa = PBXGroup;
+			children = (
+				633D7AB92339E52000BA73E8 /* JGFileUploadTool */,
+				633D7AD22339E52100BA73E8 /* JGFileUploadToolTests */,
+				633D7ADD2339E52100BA73E8 /* JGFileUploadToolUITests */,
+				633D7AB82339E52000BA73E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		633D7AB82339E52000BA73E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633D7AB72339E52000BA73E8 /* JGFileUploadTool.app */,
+				633D7ACF2339E52100BA73E8 /* JGFileUploadToolTests.xctest */,
+				633D7ADA2339E52100BA73E8 /* JGFileUploadToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633D7AB92339E52000BA73E8 /* JGFileUploadTool */ = {
+			isa = PBXGroup;
+			children = (
+				633D7AEE2339E56C00BA73E8 /* JGFileUploadTool */,
+				633D7ABA2339E52000BA73E8 /* AppDelegate.h */,
+				633D7ABB2339E52000BA73E8 /* AppDelegate.m */,
+				633D7ABD2339E52000BA73E8 /* ViewController.h */,
+				633D7ABE2339E52000BA73E8 /* ViewController.m */,
+				633D7AEC2339E54800BA73E8 /* Supporting Files */,
+			);
+			path = JGFileUploadTool;
+			sourceTree = "<group>";
+		};
+		633D7AD22339E52100BA73E8 /* JGFileUploadToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				633D7AD32339E52100BA73E8 /* JGFileUploadToolTests.m */,
+				633D7AD52339E52100BA73E8 /* Info.plist */,
+			);
+			path = JGFileUploadToolTests;
+			sourceTree = "<group>";
+		};
+		633D7ADD2339E52100BA73E8 /* JGFileUploadToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				633D7ADE2339E52100BA73E8 /* JGFileUploadToolUITests.m */,
+				633D7AE02339E52100BA73E8 /* Info.plist */,
+			);
+			path = JGFileUploadToolUITests;
+			sourceTree = "<group>";
+		};
+		633D7AEC2339E54800BA73E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				633D7AF52339E83800BA73E8 /* FMDB.db */,
+				633D7AC02339E52000BA73E8 /* Main.storyboard */,
+				633D7AC32339E52100BA73E8 /* Assets.xcassets */,
+				633D7AC52339E52100BA73E8 /* LaunchScreen.storyboard */,
+				633D7AC82339E52100BA73E8 /* Info.plist */,
+				633D7AC92339E52100BA73E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		633D7AEE2339E56C00BA73E8 /* JGFileUploadTool */ = {
+			isa = PBXGroup;
+			children = (
+				633D7AF22339E57E00BA73E8 /* JGFileStreamOperation.h */,
+				633D7AF02339E57E00BA73E8 /* JGFileStreamOperation.m */,
+				633D7AF12339E57E00BA73E8 /* JGUploadTool.h */,
+				633D7AEF2339E57E00BA73E8 /* JGUploadTool.m */,
+			);
+			path = JGFileUploadTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633D7AB62339E52000BA73E8 /* JGFileUploadTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633D7AE32339E52100BA73E8 /* Build configuration list for PBXNativeTarget "JGFileUploadTool" */;
+			buildPhases = (
+				633D7AB32339E52000BA73E8 /* Sources */,
+				633D7AB42339E52000BA73E8 /* Frameworks */,
+				633D7AB52339E52000BA73E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGFileUploadTool;
+			productName = JGFileUploadTool;
+			productReference = 633D7AB72339E52000BA73E8 /* JGFileUploadTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		633D7ACE2339E52100BA73E8 /* JGFileUploadToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633D7AE62339E52100BA73E8 /* Build configuration list for PBXNativeTarget "JGFileUploadToolTests" */;
+			buildPhases = (
+				633D7ACB2339E52100BA73E8 /* Sources */,
+				633D7ACC2339E52100BA73E8 /* Frameworks */,
+				633D7ACD2339E52100BA73E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633D7AD12339E52100BA73E8 /* PBXTargetDependency */,
+			);
+			name = JGFileUploadToolTests;
+			productName = JGFileUploadToolTests;
+			productReference = 633D7ACF2339E52100BA73E8 /* JGFileUploadToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		633D7AD92339E52100BA73E8 /* JGFileUploadToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633D7AE92339E52100BA73E8 /* Build configuration list for PBXNativeTarget "JGFileUploadToolUITests" */;
+			buildPhases = (
+				633D7AD62339E52100BA73E8 /* Sources */,
+				633D7AD72339E52100BA73E8 /* Frameworks */,
+				633D7AD82339E52100BA73E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633D7ADC2339E52100BA73E8 /* PBXTargetDependency */,
+			);
+			name = JGFileUploadToolUITests;
+			productName = JGFileUploadToolUITests;
+			productReference = 633D7ADA2339E52100BA73E8 /* JGFileUploadToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633D7AAF2339E52000BA73E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JG;
+				TargetAttributes = {
+					633D7AB62339E52000BA73E8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					633D7ACE2339E52100BA73E8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 633D7AB62339E52000BA73E8;
+					};
+					633D7AD92339E52100BA73E8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 633D7AB62339E52000BA73E8;
+					};
+				};
+			};
+			buildConfigurationList = 633D7AB22339E52000BA73E8 /* Build configuration list for PBXProject "JGFileUploadTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633D7AAE2339E52000BA73E8;
+			productRefGroup = 633D7AB82339E52000BA73E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633D7AB62339E52000BA73E8 /* JGFileUploadTool */,
+				633D7ACE2339E52100BA73E8 /* JGFileUploadToolTests */,
+				633D7AD92339E52100BA73E8 /* JGFileUploadToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633D7AB52339E52000BA73E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633D7AF62339E83800BA73E8 /* FMDB.db in Resources */,
+				633D7AC72339E52100BA73E8 /* LaunchScreen.storyboard in Resources */,
+				633D7AC42339E52100BA73E8 /* Assets.xcassets in Resources */,
+				633D7AC22339E52000BA73E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633D7ACD2339E52100BA73E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633D7AD82339E52100BA73E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633D7AB32339E52000BA73E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633D7AF42339E57E00BA73E8 /* JGFileStreamOperation.m in Sources */,
+				633D7ABF2339E52000BA73E8 /* ViewController.m in Sources */,
+				633D7ACA2339E52100BA73E8 /* main.m in Sources */,
+				633D7ABC2339E52000BA73E8 /* AppDelegate.m in Sources */,
+				633D7AF32339E57E00BA73E8 /* JGUploadTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633D7ACB2339E52100BA73E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633D7AD42339E52100BA73E8 /* JGFileUploadToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633D7AD62339E52100BA73E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633D7ADF2339E52100BA73E8 /* JGFileUploadToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		633D7AD12339E52100BA73E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633D7AB62339E52000BA73E8 /* JGFileUploadTool */;
+			targetProxy = 633D7AD02339E52100BA73E8 /* PBXContainerItemProxy */;
+		};
+		633D7ADC2339E52100BA73E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633D7AB62339E52000BA73E8 /* JGFileUploadTool */;
+			targetProxy = 633D7ADB2339E52100BA73E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		633D7AC02339E52000BA73E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633D7AC12339E52000BA73E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633D7AC52339E52100BA73E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633D7AC62339E52100BA73E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		633D7AE12339E52100BA73E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		633D7AE22339E52100BA73E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		633D7AE42339E52100BA73E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGFileUploadTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGFileUploadTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		633D7AE52339E52100BA73E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGFileUploadTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGFileUploadTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		633D7AE72339E52100BA73E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGFileUploadToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGFileUploadToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGFileUploadTool.app/JGFileUploadTool";
+			};
+			name = Debug;
+		};
+		633D7AE82339E52100BA73E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGFileUploadToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGFileUploadToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGFileUploadTool.app/JGFileUploadTool";
+			};
+			name = Release;
+		};
+		633D7AEA2339E52100BA73E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGFileUploadToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGFileUploadToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JGFileUploadTool;
+			};
+			name = Debug;
+		};
+		633D7AEB2339E52100BA73E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JGFileUploadToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JG.JGFileUploadToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JGFileUploadTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633D7AB22339E52000BA73E8 /* Build configuration list for PBXProject "JGFileUploadTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633D7AE12339E52100BA73E8 /* Debug */,
+				633D7AE22339E52100BA73E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633D7AE32339E52100BA73E8 /* Build configuration list for PBXNativeTarget "JGFileUploadTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633D7AE42339E52100BA73E8 /* Debug */,
+				633D7AE52339E52100BA73E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633D7AE62339E52100BA73E8 /* Build configuration list for PBXNativeTarget "JGFileUploadToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633D7AE72339E52100BA73E8 /* Debug */,
+				633D7AE82339E52100BA73E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633D7AE92339E52100BA73E8 /* Build configuration list for PBXNativeTarget "JGFileUploadToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633D7AEA2339E52100BA73E8 /* Debug */,
+				633D7AEB2339E52100BA73E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 633D7AAF2339E52000BA73E8 /* Project object */;
+}
