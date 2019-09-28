@@ -6,10 +6,10 @@
 ​
 ​
 - 使用
-
->> ​NSString *path =   [[NSBundle mainBundle] pathForResource:@"FMDB" ofType:@"db"];
->>​​ NSLog(@"path = %@",path);
->>  [[JGUploadTool new]upDataWithPath:path];
+        
+        NSString *path =   [[NSBundle mainBundle] pathForResource:@"FMDB" ofType:@"db"];
+        NSLog(@"path = %@",path);
+        [[JGUploadTool new]upDataWithPath:path];
 
 ​​​​
 
